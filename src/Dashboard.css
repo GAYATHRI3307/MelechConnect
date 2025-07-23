@@ -1,0 +1,35 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.dashboard-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.user-card {
+  padding: 16px;
+  background-color: #f4f6f8;
+  border-left: 4px solid #007bff;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.user-card:hover {
+  background-color: #e9ecef;
+}
